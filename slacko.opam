@@ -17,6 +17,7 @@ depends: [
   "ppx_deriving_yojson" {>= "3.3"}
   "ptime"
   "ounit" {with-test}
+  "conf-libssl"
 ]
 conflicts: [
   # broken release: https://github.com/mirage/ocaml-conduit/issues/189
